@@ -37,10 +37,10 @@ const Mood = ({ mood, setMood, setPage }) => {
     setTimeout(() => {
       emailjs
         .send(
-          // "service_qv7tddc",
-          // "template_p76dwgl",
-          // { mood_level: `${currentMood}` },
-          // "qDmJ5kwSLP5DbnTZK"
+          "service_qv7tddc",
+          "template_p76dwgl",
+          { mood_level: `${currentMood}` },
+          "qDmJ5kwSLP5DbnTZK"
         )
         .then((response) => {
           console.log("✅ Mood email sent successfully!", response);

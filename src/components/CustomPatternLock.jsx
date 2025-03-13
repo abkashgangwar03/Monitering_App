@@ -148,7 +148,7 @@ const CustomPatternLock = ({ size = 3, onPatternFinish, disabled }) => {
             y1={getCirclePosition(pattern[pattern.length - 1]).y}
             x2={pointerPosition.x}
             y2={pointerPosition.y}
-            stroke="#ff3b6f"
+            stroke="#ff4e6b"
             strokeWidth="4"
             strokeLinecap="round"
           />
