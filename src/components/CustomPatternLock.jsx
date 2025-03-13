@@ -133,7 +133,7 @@ const CustomPatternLock = ({ size = 3, onPatternFinish, disabled }) => {
               const { x, y } = getCirclePosition(index);
               return `${x},${y}`;
             }).join(" ")}
-            stroke="#ff3b6f"
+            stroke="#ff4e6b"
             strokeWidth="4"
             fill="none"
             strokeLinecap="round"
