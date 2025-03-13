@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { IoArrowBackCircle } from "react-icons/io5";
 import HandwrittenNote from "./Handwritten";
 import MyMsgHappy from "./MyMsgHappy";
@@ -8,6 +8,8 @@ import Chatbot from "./Chatbot";
 import TriviaRiddles from "./TriviaRiddles";
 
 const HappyPage = ({ setPage }) => {
+  
+  
   return (
     <>
       <button

@@ -9,9 +9,6 @@ const Chatbot = () => {
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef(null);
 
-  useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
 
   const getBotResponse = (userInput) => {
     const lowerCaseInput = userInput.toLowerCase();
@@ -67,7 +64,7 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="flex flex-col w-[95] md:w-[80%] lg:w-[60%] mx-auto bg-white/60 backdrop-blur-lg shadow-lg rounded-2xl border border-gray-300 overflow-hidden">
+    <div className="flex flex-col w-[85vw] md:w-[80%] lg:w-[60%] mx-auto bg-white/60 backdrop-blur-lg shadow-lg rounded-2xl border border-gray-300 overflow-hidden">
     
       <div className="px-6 py-3 bg-gradient-to-r from-[#ff4e6b] to-[#ff7a91] text-white font-semibold text-center text-lg rounded-t-2xl">
         Chatbot no If-Else-bot
