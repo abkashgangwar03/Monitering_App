@@ -8,7 +8,7 @@ const correctPattern = [6, 3, 1, 5, 8]; // Correct pattern
 const questions = [
   { question: "Who was/is your crush in the class?", answer: "Nikhil" },
   { question: "What is your favorite dessert?", answer: "Ice Cream" },
-  { question: "Who do I call Fattu in your friends?", answer: "Perfect" },
+  { question: "Who do I call Fattu in your friends?", answer: "Juhi" },
 ];
 
 const VerificationPage = () => {
