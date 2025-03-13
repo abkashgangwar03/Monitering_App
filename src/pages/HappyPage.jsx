@@ -4,7 +4,7 @@ import HandwrittenNote from "./Handwritten";
 import MyMsgHappy from "./MyMsgHappy";
 import SurpriseMe from "./SurpriseMe";
 import PoetryStoryButtons from "./PoetryStoryButtons";
-import Chatbot from "./ChatBot";
+import Chatbot from "./Chatbot";
 import TriviaRiddles from "./TriviaRiddles";
 
 const HappyPage = ({ setPage }) => {
