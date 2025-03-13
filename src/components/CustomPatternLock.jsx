@@ -120,7 +120,7 @@ const CustomPatternLock = ({ size = 3, onPatternFinish, disabled }) => {
               cy={y}
               r={pattern.includes(index) ? circleSize / 1.5 : circleSize / 2}
               fill={pattern.includes(index) ? "#ff3b6f" : "#ffffff"}
-              stroke="#ff3b6f"
+              stroke="#ff4e6b"
               strokeWidth="2"
             />
           );
